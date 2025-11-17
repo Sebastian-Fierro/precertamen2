@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import Regalos from "./components/Regalos";
 
-function App() {
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div style={{ padding: 20 }}>
+        <h1>Lista de Regalos</h1>
+        <Regalos />
+      </div>
+    </Fragment>
   );
 }
-
-export default App;
