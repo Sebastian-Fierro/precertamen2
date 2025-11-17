@@ -12,13 +12,9 @@ export function App() {
         <Regalos />
         <h1>Lista de Comidas</h1>
         <Comida />
-      </div>
-
-      <div style={{ padding: 20 }}>
         <h1>Lista de Adornos</h1>
         <Adornos />
       </div>
-
     </Fragment>
   );
 }
